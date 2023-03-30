@@ -8,7 +8,7 @@ public class Task4 {
         calculator();
     }
 
-    static void calculator(){
+    static void calculator() {
         System.out.println("Введите первое число: ");
         Scanner scanner1 = new Scanner(System.in);
         Integer number1 = scanner1.nextInt();
