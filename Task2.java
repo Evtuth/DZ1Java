@@ -5,15 +5,14 @@ import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {
 
-        fractal();
+        factorial();
     }
 
-    static void fractal(){
+    static void factorial(){
         int res = 1;
         System.out.println("Введите число: ");
         Scanner scanner = new Scanner(System.in);
         Integer number = scanner.nextInt();
-        System.out.println(number);
 
         for(int i = 1; i < number+1; i++) {
             res = res * i;
