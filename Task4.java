@@ -9,10 +9,10 @@ public class Task4 {
     }
 
     static void calculator(){
-        System.out.println("Введите число: ");
+        System.out.println("Введите первое число: ");
         Scanner scanner1 = new Scanner(System.in);
         Integer number1 = scanner1.nextInt();
-        System.out.println("Введите число: ");
+        System.out.println("Введите второе число: ");
         Scanner scanner2 = new Scanner(System.in);
         Integer number2 = scanner2.nextInt();
         System.out.println("Введите действие: ");
